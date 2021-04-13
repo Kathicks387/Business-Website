@@ -50,6 +50,11 @@ img {
     position: fixed;
     top: 0px;
     padding: 0 30px;
+    /* transition: 0.5s; */
+}
+
+.navbar.top{
+    background: transparent;
 }
 
 .navbar a {
@@ -219,7 +224,8 @@ img {
 
 .post .avatar,
 .post h1,
-.post .writing {
+.post .writing,
+.btns .btn {
     margin-left: 20px;
     margin-bottom: 10px;
     margin-top: 20px;
@@ -239,6 +245,10 @@ img {
     text-align: center;
 }
 
+.post .btn {
+
+}
+
 
 .blogs .flex-container, .post .flex-container {
     display: flex;
@@ -248,6 +258,9 @@ img {
     padding-left: 10px;
 }
 
+
+ 
+  
 /* Mobile */
 @media(max-width: 768px) {
     .navbar {
