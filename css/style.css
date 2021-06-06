@@ -245,12 +245,10 @@ img {
     text-align: center;
 }
 
-.post .btn {
-
-}
 
 
-.blogs .flex-container, .post .flex-container {
+.blogs .flex-container, 
+.post .flex-container {
     display: flex;
 }
 
